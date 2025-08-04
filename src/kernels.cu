@@ -141,6 +141,7 @@ void softmax(const float* input, float* output, int length) {
         output[i] /= sum;
     }
 }
+
 template <typename T>
 void flashAttention(const std::vector<T>& h_q, const std::vector<T>& h_k,
                     const std::vector<T>& h_v, std::vector<T>& h_o,
