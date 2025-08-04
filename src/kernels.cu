@@ -109,7 +109,6 @@ T kthLargest(const std::vector<T>& h_input, size_t k) {
 // 用partition和quickSelect函数实现并行化的快速选择算法
 // 将数据从主机内存复制到设备内存，然后在GPU上计算第k大的元素
 // 最后将结果从设备内存复制回主机内存，并释放设备内存
-
 // 使用CUDA编程需要配置一个NVIDIA GPU环境和CUDA编译器。
 // CUDA编程通常针对GPU计算密集型任务。
 
